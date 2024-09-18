@@ -1,6 +1,6 @@
 public class ArrayE {
     public static void main(String[] args) {
-        String[] nombre = {"Ana", "Martin", "Pedro", "jose", "Aep"};
+        String[] nombre = {"Ana", "Maetin", "Pedro", "jose", "Aep"};
         boolean[] aux = new boolean[nombre.length];
 
         aux = isArrEBool(nombre, aux, 0, 0);
