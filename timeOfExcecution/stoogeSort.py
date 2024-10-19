@@ -29,7 +29,7 @@ def stoogesort(arr, l, h):
   # Recursively sort first 2/3 elements 
   # again to confirm 
   stoogesort(arr, l, (h-t)) 
-
+'''
 # Generar 10 mil números de 8 dígitos
 numbers = [random.randint(10000000, 99999999) for _ in range(10000)]
 
@@ -52,3 +52,4 @@ print(numbers[:100])
 # Mostrar el tiempo en milisegundos
 execution_time = (end_time - start_time) * 1000 # Convertir a milisegundos
 print(f"Tiempo de ejecución: {execution_time:.2f} ms")
+'''
